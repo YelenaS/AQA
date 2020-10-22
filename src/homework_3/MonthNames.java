@@ -2,24 +2,45 @@ package homework_3;
 
 import java.time.Month;
 
-/**
+/* DONE
  * Task:
  * There is the "monthName" method that returns the name of a month by its number.
  * Uncomment the program, and fix the method so that the program compiles and works correctly.
  * Do not forget about handling an incorrect number!
  */
 public class MonthNames {
-    /*static String monthName(int numberOfMonth) {
+    static String monthName(int numberOfMonth) {
+        String failed = "Incorrect value";
         if (numberOfMonth == 1) {
             return Month.of(1).name();
         } else if (numberOfMonth == 2) {
             return Month.of(2).name();
-        } else if(numberOfMonth == 3) {
-            //...
+        } else if (numberOfMonth == 3) {
+            return Month.of(3).name();
+        } else if (numberOfMonth == 4) {
+            return Month.of(4).name();
+        } else if (numberOfMonth == 5) {
+            return Month.of(5).name();
+        } else if (numberOfMonth == 6) {
+            return Month.of(6).name();
+        } else if (numberOfMonth == 7) {
+            return Month.of(7).name();
+        } else if (numberOfMonth == 8) {
+            return Month.of(8).name();
+        } else if (numberOfMonth == 9) {
+            return Month.of(9).name();
+        } else if (numberOfMonth == 10) {
+            return Month.of(10).name();
+        } else if (numberOfMonth == 11) {
+            return Month.of(11).name();
+        } else if (numberOfMonth == 12) {
+            return Month.of(12).name();
+        } else {
+            return failed;
         }
-        //...
     }
-    public static void main(String[] args) {
+      public static void main(String[] args) {
+
         System.out.println("The month number is 1: " + monthName(1));
         System.out.println("The month number is 2: " + monthName(2));
         System.out.println("The month number is 3: " + monthName(3));
@@ -35,5 +56,6 @@ public class MonthNames {
         System.out.println("The month number is 13: " + monthName(13));
         System.out.println("The month number is -1: " + monthName(-1));
         System.out.println("The month number is 1234234: " + monthName(1234234));
-    }*/
+    }
 }
+

@@ -3,7 +3,7 @@ package homework_3;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/*
+/* DONE
  * This example demonstrates the possibility of reading
  * primitive type, string based values from input stream.
  * Task:

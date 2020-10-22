@@ -1,6 +1,8 @@
 package homework_3;
 
-/*
+import java.util.Scanner;
+
+/* DONE
  * Into:
  * Body mass index (BMI) is a value derived from the mass (weight) and height of a person.
  * The BMI is defined as the body mass divided by the square of the body height,
@@ -17,6 +19,15 @@ package homework_3;
  */
 public class BMICalculator {
     public static void main(String[] args) {
-        // your code here
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Type your mass:  ");
+        double m = sc.nextDouble();
+        System.out.println("Type your body height:  ");
+        double h = sc.nextDouble();
+        System.out.println("Your height in m:  " + h);
+        System.out.println("Your weight in kg: " + m);
+        System.out.println("_________________________");
+        System.out.println("Your BMI is " + (m / (h * h)));
     }
 }
